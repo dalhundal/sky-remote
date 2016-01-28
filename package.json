@@ -1,0 +1,19 @@
+{
+  "name": "sky-remote",
+  "version": "0.1.0",
+  "description": "Sends remote control commands to a compatible Sky TV box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sky",
+    "Remote",
+    "SkyTV",
+    "SkyPlusHD",
+    "SkyPlus",
+    "SkyHD"
+  ],
+  "author": "Dal Hundal",
+  "license": "Unlicense"
+}
