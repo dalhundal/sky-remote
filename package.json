@@ -1,6 +1,6 @@
 {
   "name": "sky-remote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sends remote control commands to a compatible Sky TV box",
   "main": "sky-remote.js",
   "engines": {
@@ -27,5 +27,5 @@
     "url": "https://github.com/dalhundal.com/sky-remote/issues"
   },
   "homepage": "https://github.com/dalhundal/sky-remote",
-  "readme": "README.md"
+  "readmeFilename": "README.md"
 }
