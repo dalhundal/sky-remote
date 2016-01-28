@@ -15,5 +15,9 @@
     "SkyHD"
   ],
   "author": "Dal Hundal",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalhundal/sky-remote"
+  }
 }
