@@ -89,3 +89,5 @@ SkyRemote.commands = {
 	tv: 127,
 	boxoffice: 240
 }
+
+module.exports = SkyRemote;

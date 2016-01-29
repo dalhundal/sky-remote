@@ -1,6 +1,6 @@
 {
   "name": "sky-remote",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sends remote control commands to a compatible Sky TV box",
   "main": "sky-remote.js",
   "engines": {
