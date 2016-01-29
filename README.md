@@ -43,7 +43,9 @@ remoteControl.press('channelup', function(err) {
 
 `up` `down` `left` `right` `select`
 
-`i` `backup` `text` `help`
+`channelup` `channeldown` `i`
+
+`backup` `text` `help`
 
 `play` `pause` `rewind` `fastforward` `stop` `record`
 
