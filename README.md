@@ -52,3 +52,8 @@ remoteControl.press('channelup', function(err) {
 `red` `green` `yellow` `blue`
 
 `0` `1` `2` `3` `4` `5` `6` `7` `8` `9`
+
+## See also
+
+- http://github.com/dalhundal/sky-remote-cli - command line app to send remote control commands
+- http://github.com/dalhundal/sky-remote-web - web ui to send remote control commands
