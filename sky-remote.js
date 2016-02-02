@@ -1,14 +1,12 @@
 var net = require('net');
 
-function SkyRemote(ip) {
-
-	// IS IP VALID?
+function SkyRemote(host) {
 
 	function sendCommand(code, cb) {
 		var commandBytes = [4,1,0,0,0,0, Math.floor(224 + (code/16)), code % 16];
 
 		var client = net.connect({
-			host: ip,
+			host: host,
 			port: 49160
 		});
 
