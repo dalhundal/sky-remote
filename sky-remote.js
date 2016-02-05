@@ -83,9 +83,8 @@ SkyRemote.commands = {
 	record: 67,
 	fastforward: 69,
 	rewind: 71,
-	sky: 127, 
-	tv: 127,
-	boxoffice: 240
+	boxoffice: 240,
+	sky: 241
 }
 
 module.exports = SkyRemote;
