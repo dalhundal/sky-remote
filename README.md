@@ -34,18 +34,23 @@ remoteControl.press('channelup', function(err) {
 });
 
 ```
+### Sky Q
+
+```
+var remoteControl = new SkyRemote('192.168.0.40', SkyRemote.SKY_Q);
+```
 
 ## Remote control commands
 
 `sky` `power`
 
-`tvguide` `boxoffice` `services` `interactive`
+`tvguide` or `home` `boxoffice` `services` or `search` `interactive` or `sidebar`
 
 `up` `down` `left` `right` `select`
 
 `channelup` `channeldown` `i`
 
-`backup` `text` `help`
+`backup` or `dismiss` `text` `help`
 
 `play` `pause` `rewind` `fastforward` `stop` `record`
 

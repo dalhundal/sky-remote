@@ -1,13 +1,13 @@
 var net = require('net');
 
-function SkyRemote(host) {
+function SkyRemote(host, port) {
 
 	function sendCommand(code, cb) {
 		var commandBytes = [4,1,0,0,0,0, Math.floor(224 + (code/16)), code % 16];
 
 		var client = net.connect({
 			host: host,
-			port: 49160
+			port: port || 49160
 		});
 
 		var l = 12;
@@ -47,16 +47,22 @@ function SkyRemote(host) {
 
 }
 
+SkyRemote.SKY_Q = 5900;
+
 SkyRemote.commands = {
 	power: 0,
 	select: 1,
 	backup: 2,
+	dismiss: 2,
 	channelup: 6,
 	channeldown: 7,
 	interactive: 8,
+	sidebar: 8,
 	help: 9,
 	services: 10,
+	search: 10,
 	tvguide: 11,
+	home: 11,
 	i: 14,
 	text: 15, 
 	up: 16,
