@@ -1,5 +1,7 @@
 #sky-remote
 
+[![Join the chat at https://gitter.im/dalhundal/sky-remote](https://badges.gitter.im/dalhundal/sky-remote.svg)](https://gitter.im/dalhundal/sky-remote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A NodeJS module for sending remote control commands to a Sky TV box.
 
 ## Usage
