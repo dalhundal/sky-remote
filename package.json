@@ -1,7 +1,7 @@
 {
   "name": "sky-remote",
-  "version": "1.0.3",
-  "description": "Sends remote control commands to a compatible Sky TV box",
+  "version": "1.0.4",
+  "description": "Sends remote control commands to a Sky TV box, works with Sky+HD and SkyQ",
   "main": "sky-remote.js",
   "engines": {
     "node": ">=0.10.0"
@@ -15,7 +15,8 @@
     "SkyTV",
     "SkyPlusHD",
     "SkyPlus",
-    "SkyHD"
+    "SkyHD",
+    "SkyQ"
   ],
   "author": "Dal Hundal",
   "license": "Unlicense",
