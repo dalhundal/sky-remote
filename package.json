@@ -1,6 +1,6 @@
 {
   "name": "sky-remote",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Sends remote control commands to a Sky TV box, works with Sky+HD and SkyQ",
   "main": "sky-remote.js",
   "engines": {
