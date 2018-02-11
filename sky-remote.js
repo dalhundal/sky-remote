@@ -65,7 +65,8 @@ function SkyRemote(host, port) {
 
 }
 
-SkyRemote.SKY_Q = 5900;
+SkyRemote.SKY_Q_LEGACY = 5900;
+SkyRemote.SKY_Q = 49160; // Keeping for backwards compatability
 
 SkyRemote.commands = {
 	power: 0,

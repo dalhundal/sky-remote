@@ -34,10 +34,10 @@ remoteControl.press('channelup', function(err) {
 });
 
 ```
-### Sky Q
+### Sky Q (if firmware < 060)
 
 ```
-var remoteControl = new SkyRemote('192.168.0.40', SkyRemote.SKY_Q);
+var remoteControl = new SkyRemote('192.168.0.40', SkyRemote.SKY_Q_LEGACY);
 ```
 
 ## Remote control commands
