@@ -1,10 +1,12 @@
 var net = require('net');
 
-function SkyRemote(host, port) {
-
+function SkyRemote(host, port, options) {
 	var that = this;
-	this.connectTimeout = 1000;
-
+	
+	options = options || {};
+	this.pauseTimeBetweenCommands = options.pauseTimeBetweenCommands || 500;
+	this.connectTimeout = options.connectTimeout || 1000;
+	
 	function sendCommand(code, cb) {
 		var commandBytes = [4,1,0,0,0,0, Math.floor(224 + (code/16)), code % 16];
 
@@ -54,7 +56,7 @@ function SkyRemote(host, port) {
 			if (sequence.length) {
 				setTimeout(function() {
 					press(sequence, cb);
-				},500);
+				}, this.pauseTimeBetweenCommands);
 			} else {
 				if (typeof cb === 'function') {
 					cb(err);
